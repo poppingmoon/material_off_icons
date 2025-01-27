@@ -1,0 +1,35 @@
+name: material_off_icons
+description: Material Icons with a slash added to all the icons.
+version: 0.1.0
+homepage: https://github.com/poppingmoon/material_off_icons
+repository: https://github.com/poppingmoon/material_off_icons
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  fonts:
+    - family: MaterialOffIcons
+      fonts:
+        - asset: assets/fonts/MaterialOffIcons-Regular.ttf
+
+    - family: MaterialOffIconsOutlined
+      fonts:
+        - asset: assets/fonts/MaterialOffIconsOutlined-Regular.otf
+
+    - family: MaterialOffIconsRound
+      fonts:
+        - asset: assets/fonts/MaterialOffIconsRound-Regular.otf
+
+    - family: MaterialOffIconsSharp
+      fonts:
+        - asset: assets/fonts/MaterialOffIconsSharp-Regular.otf
