@@ -1,7 +1,7 @@
 // Generated file. Do not edit.
 //
 // Source: material-design-icons/font
-// To regenerate, run: `dart run scripts/update_icons.dart && dart format lib/material_off_icons.dart`
+// To regenerate, run: `dart run scripts/update_icons.dart`
 
 import 'package:flutter/widgets.dart';
 
@@ -42563,24 +42563,24 @@ abstract final class OffIcons {
 
   static const IconData signal_cellular_connected_no_internet_0_bar_sharp =
       IconData(
-    0xf0ac,
-    fontFamily: 'MaterialOffIconsSharp',
-    fontPackage: 'material_off_icons',
-  );
+        0xf0ac,
+        fontFamily: 'MaterialOffIconsSharp',
+        fontPackage: 'material_off_icons',
+      );
 
   static const IconData signal_cellular_connected_no_internet_0_bar_rounded =
       IconData(
-    0xf0ac,
-    fontFamily: 'MaterialOffIconsRound',
-    fontPackage: 'material_off_icons',
-  );
+        0xf0ac,
+        fontFamily: 'MaterialOffIconsRound',
+        fontPackage: 'material_off_icons',
+      );
 
   static const IconData signal_cellular_connected_no_internet_0_bar_outlined =
       IconData(
-    0xf0ac,
-    fontFamily: 'MaterialOffIconsOutlined',
-    fontPackage: 'material_off_icons',
-  );
+        0xf0ac,
+        fontFamily: 'MaterialOffIconsOutlined',
+        fontPackage: 'material_off_icons',
+      );
 
   static const IconData signal_cellular_connected_no_internet_4_bar = IconData(
     0xe1cd,
@@ -42590,24 +42590,24 @@ abstract final class OffIcons {
 
   static const IconData signal_cellular_connected_no_internet_4_bar_sharp =
       IconData(
-    0xe1cd,
-    fontFamily: 'MaterialOffIconsSharp',
-    fontPackage: 'material_off_icons',
-  );
+        0xe1cd,
+        fontFamily: 'MaterialOffIconsSharp',
+        fontPackage: 'material_off_icons',
+      );
 
   static const IconData signal_cellular_connected_no_internet_4_bar_rounded =
       IconData(
-    0xe1cd,
-    fontFamily: 'MaterialOffIconsRound',
-    fontPackage: 'material_off_icons',
-  );
+        0xe1cd,
+        fontFamily: 'MaterialOffIconsRound',
+        fontPackage: 'material_off_icons',
+      );
 
   static const IconData signal_cellular_connected_no_internet_4_bar_outlined =
       IconData(
-    0xe1cd,
-    fontFamily: 'MaterialOffIconsOutlined',
-    fontPackage: 'material_off_icons',
-  );
+        0xe1cd,
+        fontFamily: 'MaterialOffIconsOutlined',
+        fontPackage: 'material_off_icons',
+      );
 
   static const IconData signal_cellular_no_sim = IconData(
     0xe1ce,
@@ -42875,31 +42875,31 @@ abstract final class OffIcons {
 
   static const IconData signal_wifi_statusbar_connected_no_internet_4 =
       IconData(
-    0xf066,
-    fontFamily: 'MaterialOffIcons',
-    fontPackage: 'material_off_icons',
-  );
+        0xf066,
+        fontFamily: 'MaterialOffIcons',
+        fontPackage: 'material_off_icons',
+      );
 
   static const IconData signal_wifi_statusbar_connected_no_internet_4_sharp =
       IconData(
-    0xf066,
-    fontFamily: 'MaterialOffIconsSharp',
-    fontPackage: 'material_off_icons',
-  );
+        0xf066,
+        fontFamily: 'MaterialOffIconsSharp',
+        fontPackage: 'material_off_icons',
+      );
 
   static const IconData signal_wifi_statusbar_connected_no_internet_4_rounded =
       IconData(
-    0xf066,
-    fontFamily: 'MaterialOffIconsRound',
-    fontPackage: 'material_off_icons',
-  );
+        0xf066,
+        fontFamily: 'MaterialOffIconsRound',
+        fontPackage: 'material_off_icons',
+      );
 
   static const IconData signal_wifi_statusbar_connected_no_internet_4_outlined =
       IconData(
-    0xf066,
-    fontFamily: 'MaterialOffIconsOutlined',
-    fontPackage: 'material_off_icons',
-  );
+        0xf066,
+        fontFamily: 'MaterialOffIconsOutlined',
+        fontPackage: 'material_off_icons',
+      );
 
   static const IconData signal_wifi_statusbar_null = IconData(
     0xf067,

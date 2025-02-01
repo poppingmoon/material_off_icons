@@ -3,6 +3,8 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:dart_style/dart_style.dart';
+
 const List<String> _defaultPossibleStyleSuffixes = <String>[
   '_outlined',
   '_rounded',
@@ -285,7 +287,7 @@ void main() {
 // Generated file. Do not edit.
 //
 // Source: material-design-icons/font
-// To regenerate, run: `dart run scripts/update_icons.dart && dart format lib/material_off_icons.dart`
+// To regenerate, run: `dart run scripts/update_icons.dart`
 
 import 'package:flutter/widgets.dart';
 
@@ -329,5 +331,7 @@ abstract final class OffIcons {
   buffer.write('}');
 
   final iconsFile = File('lib/material_off_icons.dart');
-  iconsFile.writeAsStringSync(buffer.toString());
+  final formatter =
+      DartFormatter(languageVersion: DartFormatter.latestLanguageVersion);
+  iconsFile.writeAsStringSync(formatter.format(buffer.toString()));
 }
